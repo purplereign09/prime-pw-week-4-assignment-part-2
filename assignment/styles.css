@@ -57,50 +57,75 @@ table {
   left: 190px;
   margin-left: 60px;
   padding-left: 40px;
+  width: 1080px;
+  height: 2000px;
 }
 
-
-.header header h1 {
-  position: relative;
-  background-color: aqua;
+.header-grid-item1 {
+  position: absolute;
+  top: 280px;
+  left: 90px;
+  background-color: #a2d2ff;
   margin: 0, auto;
   width: 1080px;
+  height: 20px;
+  padding: 10px;
+  z-index: 2;
 }
 
-.info h2 {
-  position: relative;
-  background-color: #00f5d4;
-  width: 1080px;
-  height: 30px;
-  padding: 20px 0 20px 0;
-}
-
-.info h2 {
-  color: #10002b;
+.header-grid-item1 header h1 {
   font-family: 'Prompt', sans-serif;
-  font-size: 22px;
+  font-size: 18px;
   text-align: center;
-  margin-bottom: 20px;
+  z-index: 2;
 }
 
-.mycar {
+.info-grid-item2 {
+  position: relative;
+  top: 330px;
+  left: 50px;
+  width: 1080px;
+  height: 25px;
+  background-color: #ffafcc;
+  padding: 10px;
+  z-index: 2;
+}
+
+.info-grid-item2 h2 {
+  font-family: 'Open-Sans', sans-serif;
+  font-size: 18px;
+  color: #3a0ca3;
+  text-align: center;
+  z-index: 2;
+}
+
+.mycar-grid-item3 {
+  position: relative;
+  width: 1080;
+  z-index: 1;
+}
+
+.mycar-grid-item3 img {
   position: relative;
   width: 1080px;
-  background-color: #ee82ee;
+  z-index: 1;
 }
 
-img {
-  position: absolute;
-  display: inline-block;
-  width: 1080px;
-  padding-bottom: 300We We px;
-  margin-bottom: 300px;
-}
-
-.tinycar {
+.tinycar-grid-item4 {
   position: relative;
-  background-color: #00f5d4;
   width: 1080px;
-  height: 30px;
-  padding: 20px 0 20px 0;
+  background-color: #cdb4db;
+  height: 25px;
+  padding: 10px;
+  top: -290px;
+  left: 50px;
+  z-index: 2;
+}
+
+.tinycar-grid-item4 h3 {
+  font-family: 'Prompt', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  color: #3a0ca3;
+  z-index: 2;
 }
